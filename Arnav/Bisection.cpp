@@ -4,7 +4,7 @@ using namespace std;
 #include <cstdlib>
 double error;
 int z,n;
-// Bisection method for numerical solution of non Linear equations //
+//  Bisection method for numerical solution of non Linear equations //
 double f(double x)
 {
     //Non Linear equation
