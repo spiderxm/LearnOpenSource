@@ -19,10 +19,16 @@
             <li class="item"><a href="#services-container">Services</a></li>
             <li class="item"><a href="#client-section">Our Clients</a></li>
             <li class="item"><a href="#contact">Contact Us</a></li>
-           
+            <li class="item"><button onclick="toggleDarkMode()">Dark Mode</button></li>
+			
         </ul>
    </nav> 
-
+	<script>
+	function toggleDarkMode(){
+		var element = document.body;
+		element.classList.toggle("dark-mode");
+	}
+	</script>
    <section id="home">
        <h1 class="h-primary">Welcome to Mom's Kitchen</h1>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis labore voluptates est. Consequatur voluptatem a.</p>
