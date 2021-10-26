@@ -1,0 +1,60 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  width: 100%;
+  height:auto;
+  background-image: url("back.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Racing Sans One', cursive;
+  /* font-family: 'Convergence', sans-serif; */
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #000000;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+button{
+  width:10rem;
+  font-size: 2.0rem;
+  font-family:'Lobster', cursive ;
+  font-weight: 2000;
+  display: flex;
+  margin: auto;
+  border-radius: 25px;
+  color: rgb(156, 41, 41);
+  background-color: rgba(245, 243, 244, 0.356);
+ padding-left: 3rem;
+ 
+ 
+}
